@@ -1,0 +1,91 @@
+    body{
+            background-image: "./background.jpeg";
+            background-size: auto;
+            color: white;
+    }
+
+    :root {
+        --mdc-theme-primary: #D50032;
+    }
+
+    .template {
+        display:none;
+    }
+
+    #tname{
+        background:transparent;
+        
+    }
+
+    #weatherpage{
+        position:absolute;
+        left:20%;
+        top:45%;
+        background-color:transparent;
+        color:black;
+    }    
+    
+      #wikipage{
+        position:absolute;
+        left:20%;
+        top:75%;
+        background-color:transparent;
+        color:black;
+    }   
+    
+      #forecastpage{
+        position:absolute;
+        left:20%;
+        top:35%;
+        background-color:transparent;
+        color:black;
+    }  
+
+    #geo{
+        position:absolute;
+        left:20%;
+        top:55%;
+        background-color:transparent;
+        color:black;
+    
+    
+    }
+
+      #curve_chart {
+      position:absolute;
+      top:30%;
+      width: 100%;
+      height: auto;
+
+    }   
+    
+    #box {
+        position:absolute;
+        background: rgba(0, 0, 0, 0.2);
+        height: 25%;
+        width: 100% ;
+        top: 7%;
+        left: auto%;
+        color: black;
+        text-align: center;
+    }
+
+    #forecastbox{
+        position: absolute;
+        background: rgba(0, 0, 0, 0.2);
+        text-align: center;
+        top: 10%;
+        color: black;
+        width:100%;
+    }
+
+    #list {
+        position:absolute;
+        height: 100%;    
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        margin-top: 40%;
+        color: black;
+    }
